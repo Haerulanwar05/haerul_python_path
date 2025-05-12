@@ -9,3 +9,4 @@ print(f"Hallo! {Nama}")
 
 # Menghitung Hasil dari 6 * 5
 print(6*5)
+scszc
