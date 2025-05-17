@@ -22,3 +22,14 @@ else:
 # AND sendiri dalam program beberapa kondisi yang harus terpenuhi semuanya
 # OR sendiri beberapa kondisi yang dimana tidak harus semuanya terpenuhi jika salah satu nya terpenuhi maka nilai nya akan True
 # Pass sendiri merupakan sebuah perintah dimana jika nilai benar maka dia tidak mengesekusi apapun
+
+# Praktek 
+'''
+Berikan sebuah program dimana bisa mengetahui apakah program tersebut ganjil atau genap
+'''
+# Syntax
+angka = int(input("Masukan Angka: "))
+if angka % 2 == 0 :
+    print ("Genap")
+else :
+    print ("Ganjil")
