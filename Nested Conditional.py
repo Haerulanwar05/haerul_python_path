@@ -16,10 +16,14 @@ if suhu < 39 and umur <= 70:
 else:
     print("Maaf anda tidak memenuhi syarat")
     Profesi = input("Masukan Profesi Anda: ")
-    if Profesi == "Polisi" or Profesi == "Guru" or Profesi == "Dokter":
+    if Profesi == "Polisi" :
+        print("Anda masuk ke pengawasan dalam zona!")
+    elif Profesi == "Guru" :
+        print("Anda masuk ke pengawasan dalam zona!")
+    elif Profesi == "Dokter" :
         print("Anda masuk ke pengawasan dalam zona!")
     else :
         print("Maaf! kami sudah semaksimal mungkin untuk memperkuat keamanan syarat Karantina kami")
 
 # Ini merupakan salah satu contoh Nested Conditional
-
+# dalam eksekusi kondisi ini juga terdapat elif dimana ini digunakan untuk kondisi berantai seperti contoh diatas
