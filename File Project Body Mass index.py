@@ -14,5 +14,5 @@ elif bmi < 25 :
 elif bmi < 30 : 
     print(f"BMI anda adalah {bmi}, Berat badan Anda lebih, tolong dikurangi!!")
 else :
-    print("Berat badan Anda Obesitas, Darurat segera dikurangi!!")
+    print(f"BMI anda adalah {bmi}, Berat badan Anda Obesitas, Darurat segera dikurangi!!")
 
