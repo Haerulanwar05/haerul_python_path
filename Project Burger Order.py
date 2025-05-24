@@ -10,7 +10,9 @@ Large Burger (L) : $10
 Add Mushroom : For Mini and Normal = $1, For Large = $2
 Extra Cheese : $1
 '''
-# Syntax 
+# Syntax
+print("Selamat datang di Burger Order!") 
+print("Berikut Daftar harga Burger:\nMini : $5\nNormal : $8\nLarge : $10")
 Size = input("Masukan Size Burger(M,N,L)? ")
 Harga = 0
 if Size == "M":
