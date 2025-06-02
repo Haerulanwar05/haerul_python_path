@@ -24,7 +24,39 @@ else:
             Nominal_Beasiswa = int(input("masukan nominal beasiswa anda? "))
             if Nominal_Beasiswa < 5000000:
                 print(f"Halo {Mahasiswa}, Status anda adalah {Status}, dan anda mendapatkan Beasiswa jadi anda mendapatkan kriteria kost an tipe 'B'")
+            elif Nominal_Beasiswa > 5000000:
+                print(f"Halo {Mahasiswa}, Status anda adalah {Status}, dan anda mendapatkan Beasiswa jadi anda mendapatkan kriteria kost an tipe 'A'")
             else:
                 pass
         else:
             print(f"Halo {Mahasiswa}, Status anda adalah {Status}, jadi anda mendapatkan kriteria kost an tipe 'C'")
+    elif Pendapatan <= 1000000:
+        Beasiswa = input("apakah anda mendapatkan beasiswa? (Y/N) ")
+        if Beasiswa == "Y":
+            Nominal_Beasiswa = int(input("masukan nominal beasiswa anda? "))
+            if Nominal_Beasiswa < 5000000:
+                print(f"Halo {Mahasiswa}, Status anda adalah {Status}, dan anda mendapatkan Beasiswa jadi anda mendapatkan kriteria kost an tipe 'B'")
+            elif Nominal_Beasiswa > 5000000:
+                print(f"Halo {Mahasiswa}, Status anda adalah {Status}, dan anda mendapatkan Beasiswa jadi anda mendapatkan kriteria kost an tipe 'A'")
+            else:
+                pass
+        else:
+            print(f"Halo {Mahasiswa}, Status anda adalah {Status}, jadi anda mendapatkan kriteria kost an tipe 'B'")
+    else:
+        Beasiswa = input("apakah anda mendapatkan beasiswa? (Y/N) ")
+        if Beasiswa == "Y":
+            Nominal_Beasiswa = int(input("masukan nominal beasiswa anda? "))
+            if Nominal_Beasiswa < 5000000:
+                print(f"Halo {Mahasiswa}, Status anda adalah {Status}, dan anda mendapatkan Beasiswa jadi anda mendapatkan kriteria kost an tipe 'B'")
+            elif Nominal_Beasiswa > 5000000:
+                print(f"Halo {Mahasiswa}, Status anda adalah {Status}, dan anda mendapatkan Beasiswa jadi anda mendapatkan kriteria kost an tipe 'A'")
+            else:
+                pass
+        else:
+            print(f"Halo {Mahasiswa}, Status anda adalah {Status}, jadi anda mendapatkan kriteria kost an tipe 'A'")
+
+finally:
+    print("Terimakasih sudah melakukan pengecekan kriteria kost untuk mahasiswa!")
+ 
+
+
