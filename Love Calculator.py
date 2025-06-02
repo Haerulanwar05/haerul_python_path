@@ -36,4 +36,11 @@ score_E2 = name2.count("e")
 score_true = str(score_t + score_t2 + score_r + score_r2 + score_u + score_u2 + score_e + score_e2)
 score_love = str(score_l + score_l2 + score_o + score_o2 + score_v + score_v2 + score_E + score_E2)
 Score_All = score_true + score_love
-print(Score_All)
+
+if int(Score_All) < 10 or int(Score_All) > 85:
+    print(f"Your score is {Score_All}, you go together like coke and mentos.")
+elif 40 <= int(Score_All) >= 70 :
+    print(f"Your score is {Score_All}, you are alright together.")
+else:
+    print(f"Your score is {Score_All}.")
+
