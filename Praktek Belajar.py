@@ -24,7 +24,7 @@ else:
             Nominal_Beasiswa = int(input("masukan nominal beasiswa anda? "))
             if Nominal_Beasiswa < 5000000:
                 print(f"Halo {Mahasiswa}, Status anda adalah {Status}, dan anda mendapatkan Beasiswa jadi anda mendapatkan kriteria kost an tipe 'B'")
-            elif Nominal_Beasiswa > 5000000:
+            elif Nominal_Beasiswa >= 5000000:
                 print(f"Halo {Mahasiswa}, Status anda adalah {Status}, dan anda mendapatkan Beasiswa jadi anda mendapatkan kriteria kost an tipe 'A'")
             else:
                 pass
