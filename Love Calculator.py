@@ -12,35 +12,32 @@ Otherwise, the message will just be their score. e.g.:
 "Your score is **z**."
 '''
 # Syntax
-name1 = input("Masukan nama anda? ").lower()
-name2 = input("Masukan nama pasangan anda? ").lower()
+name1 = input("Masukan nama anda? ")
+name2 = input("Masukan nama pasangan anda? ")
+Nama_Gabungan = name1 + name2
+Nama_Gabungan_Kecil = Nama_Gabungan.lower()
 
-score_t = name1.count("t")
-score_t2 = name2.count("t")
-score_r = name1.count("r")
-score_r2 = name2.count("r")
-score_u = name1.count("u")
-score_u2 = name2.count("u")
-score_e = name1.count("e")
-score_e2 = name2.count("e")
+t = Nama_Gabungan_Kecil.count("t")
+r = Nama_Gabungan_Kecil.count("r")
+u = Nama_Gabungan_Kecil.count("u")
+e = Nama_Gabungan_Kecil.count("e")
 
-score_l = name1.count("l")
-score_l2 = name2.count("l")
-score_o = name1.count("o")
-score_o2 = name2.count("o")
-score_v = name1.count("v")
-score_v2 = name2.count("v")
-score_E = name1.count("e")
-score_E2 = name2.count("e")
+true = t + r + u + e
 
-score_true = str(score_t + score_t2 + score_r + score_r2 + score_u + score_u2 + score_e + score_e2)
-score_love = str(score_l + score_l2 + score_o + score_o2 + score_v + score_v2 + score_E + score_E2)
-Score_All = score_true + score_love
+l = Nama_Gabungan_Kecil.count("l")
+o = Nama_Gabungan_Kecil.count("o")
+v = Nama_Gabungan_Kecil.count("v")
+e = Nama_Gabungan_Kecil.count("e")
 
-if int(Score_All) < 10 or int(Score_All) > 85:
-    print(f"Your score is {Score_All}, you go together like coke and mentos.")
-elif 40 <= int(Score_All) >= 70 :
-    print(f"Your score is {Score_All}, you are alright together.")
+love = l + o + v + e
+
+Love_Score = int(str(true)+str(love))
+print(Love_Score)
+
+if Love_Score < 10 or Love_Score > 85:
+    print(f"Skor kamu adalah {Love_Score}, you go together like coke and mentos.")
+elif 40 <= Love_Score >= 70:
+    print(f"Skor kamu adalah {Love_Score}, you are alright together.")
 else:
-    print(f"Your score is {Score_All}.")
+    print(f"Skor kamu adalah {Love_Score}.")
 
