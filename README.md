@@ -18,7 +18,7 @@ Repositori ini merupakan dokumentasi perjalanan saya dalam mempelajari Python se
 
 ## 📂 Struktur Folder
 
-- `0fundamentals/`: Latihan dasar Python
+- `fundamentals/`: Latihan dasar Python
 - `projects/`: Proyek mini berbasis Python
 - `notes/`: Catatan kode dan eksperimen pribadi
 
