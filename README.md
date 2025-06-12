@@ -1,7 +1,5 @@
 
 
-readme_content_ds = """# 👨‍💻 Python Learning Journey
-
 Repositori ini merupakan dokumentasi perjalanan saya dalam mempelajari Python sebagai langkah awal menuju karier sebagai **Data Scientist**.
 
 ## 📌 Tujuan
