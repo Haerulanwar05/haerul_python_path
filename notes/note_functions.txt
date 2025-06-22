@@ -35,4 +35,6 @@ contoh:
     tambah_sepuluh = lambda x: x + 10
     print(tambah_sepuluh(5)) # Output: 15
 
-
+apa itu module?
+    modul sendiri merupakan sebuah package yang berisi sebuah functions atau kode khusus yang tugasnya itu menyangkut sesuatu yang khusus dan relevan dalam dibuatnya modul tersebut.
+    contoh nya yaitu kita bisa membuat sebuah file baru berjenis py dan kita menuliskan sebuah kode tersebut seperti func sendiri/ UDF atau kode khusus. contoh(di file fundamentals/math_module.py)
