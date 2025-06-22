@@ -1,0 +1,38 @@
+- Functions
+
+merupakan suatu kode yang ditulis untuk membuat tugas yang spesifik
+ 
+saat membuat Functions di python, kamu harus memberikan nama Functions yang relevan dan urutan pernyataan disini.
+ketika nanti Functions sudah jadi kita bisa memanggil nya untuk mengerjakan tugas yang spesifik 
+
+* Calling Functions
+
+Functions_name
+    statement 1
+    statement 2
+    statement 3
+
+Functions_name() 
+
+di Functions terdapat beberapa jenis yaitu:
+# Functions bawaan dari python itu sendiri tanpa mengimpor modul (built in Functions)
+seperti :
+    - input () 
+    - len ()
+    - type ()
+    dsb..
+
+# Fungsi Buatan Pengguna (User-Defined Functions - UDF)
+Ini adalah fungsi yang kita, sebagai programmer, buat sendiri untuk melakukan tugas-tugas spesifik. Fungsi ini dibuat menggunakan kata kunci def. Ini adalah jenis fungsi yang paling umum Anda tulis.
+contoh:
+    def sapa(nama):
+    print(f"Halo, {nama}! Selamat datang.")
+
+# Fungsi Anonim (Anonymous Functions / Lambda Functions)
+Fungsi ini adalah fungsi kecil tanpa nama yang dibuat menggunakan kata kunci lambda. Fungsi lambda hanya bisa berisi satu ekspresi (bukan blok kode) dan hasilnya otomatis dikembalikan (return).
+contoh: 
+    Fungsi lambda untuk menambah 10 ke sebuah angka
+    tambah_sepuluh = lambda x: x + 10
+    print(tambah_sepuluh(5)) # Output: 15
+
+
