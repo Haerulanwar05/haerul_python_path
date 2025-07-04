@@ -1,0 +1,15 @@
+(jum'at/4 juli 2025)
+
+random merupakan sebuah sesuatu yang acak dan tidak dapat di prediksi, dalam case ini kita akan akan membahas
+sebuah fungsi built in dalam pemrograman python yang berfungsi seperti itu, biasanya digunakan dalam pembuatan 
+game salah satunya yaitu seperti game tetris dimana setiap bentuk dan posisi selalu acak sehingga tidak dapat di prediksi secara akurat 
+
+- penggunaan random dalam pemrograman python :
+    1.) untuk memakai fungsi random ini kita harus lebih dulu mengimport sebuah module nya yang yaitu "random"
+        dengan syntax seperti ini ; "import random"
+    2.) dalam module random ini terdapat beberapa fungsi random untuk beberapa khusus jenis data seperti :
+        - randint() = digunakan untuk jenis data integer dimana memiliki rentang a , b
+        - random()  = digunakan untuk jenis data float dimana sudah otomatis menghasilkan jenis data float
+                      dalam rentang 0.0 - 1.0
+        - uniform() = digunakan untuk jenis data float dimana memiliki rentang float dari a , b seperti contoh
+                      random.uniform(1.0,5.0) dia akan menghasilkan angka float dari 1.0 - 5.0 misalnya "4.56"
