@@ -1,0 +1,14 @@
+pembuatan func dengan variabel dan parameternya.
+
+contoh syntax :
+    def my_func (variabel):
+        print(f"halo selamat malam {variabel}")
+
+    variabel dalam hal ini merupakan sebuah parameter untuk membuat suatu dari fungsi tersebut 
+    seperti fungsi input dimana parameter tersebut didapatkan dari inputan user.
+    contoh :
+    def my_func ("Haerul"):
+        print(f"halo selamat malam Haerul")
+    
+    jadi variabel dalam func tersebu merupakan sebuah variabel yang tidak memiliki nilai dan 
+    nilai nya tergantung dari user yang memberikan nya.
