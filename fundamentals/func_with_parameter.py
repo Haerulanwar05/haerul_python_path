@@ -42,3 +42,11 @@ def format_name(depan,belakang):
 
 output = format_name("haerul","anwar")
 print(output)
+
+# membuat fungsi concatenate string
+def concatenate(a,b):
+    f_concatenate = a + b
+    return f"{f_concatenate}"
+
+output_concatenate = concatenate("Face","Book")
+print(output_concatenate)
