@@ -32,4 +32,13 @@ def greeting_cityKA(name, city):
     print(f"bagaiman cuaca di kota {city}?")
 
 greeting_cityKA(city="Jakarta",name="Haerul")              # kita menandakan parameter ini sesuai apa yang ingin kita isi jadi jika kita lupa posisi nya dan tertukar maka tidak akan logic error
-                                                   
+
+
+# membuat fungsi format nama
+def format_name(depan,belakang):
+    f_depan = depan.title()
+    f_belakang = belakang.title()
+    return f"{f_depan},{f_belakang}"   # kenapa harus menggunakan return karena kita akan memnaggil nya kembali dengan menggunakan variabel 
+
+output = format_name("haerul","anwar")
+print(output)
