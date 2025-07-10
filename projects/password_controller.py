@@ -3,7 +3,7 @@ Buat fungsi yang menggunakan string password sebagai parameter dan memeriksa pan
 '''
 def password_controller(password):
     panjang_password = len(password)
-    if panjang_password >= 8:
+    if panjang_password > 8:
         return True
     else:
         return False
