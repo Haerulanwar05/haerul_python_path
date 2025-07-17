@@ -1,0 +1,15 @@
+# Catatan Lengkap tentang Loops (Perulangan) di Python
+
+## 1. Pengertian Loop
+Loop (perulangan) adalah struktur kontrol yang digunakan untuk mengeksekusi blok kode secara berulang selama kondisi tertentu terpenuhi.
+
+## 2. Jenis-jenis Loop di Python
+
+### a. For Loop
+Digunakan untuk mengiterasi elemen dari sebuah koleksi (list, tuple, string, dll).
+
+contoh:
+
+for buah in ["apel", "jeruk", "mangga"]:
+    print(buah)
+
