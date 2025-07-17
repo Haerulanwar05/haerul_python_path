@@ -1,0 +1,40 @@
+List
+
+List merupakan suatu jenis data dimana berguna untuk menyimpan data lainnnya atau bisa disebut juga data structure,
+tanda list merupakan diawali dengan tanda kurung kotak dan diakhiri tanda kurung kotak juga.
+contohnya seperti ini :
+
+Buah = ["apel","pisang","salak"]
+
+- ini merupakan sebuah contoh dalam list dimana terdapat variabel yang mengandung sebuah kumpulan data string dalam list. 
+
+perlu diketahui list sendiri dapat menyimpan data yang bervariasi seperti string, int, dan jenis data lainnya.
+
+dalam list juga terdapat index dimana dalam perhitungan index tersebut diawali dengan 0 contoh:
+
+makanan = ["sate", "soto", "tempe goreng"]
+            0         1           2          
+
+- dari sini kita tahu bahwa sate merupakan index ke-0 dan tempe goreng merupakan index ke-2
+
+tidak hanya itu dalam python khusus nya list terdapat yang namanya index negatif dimana dimulai dari -1 dan seterusnya contoh:
+
+makanan = ["sate", "soto", "tempe goreng"]
+            -3         -2           -1          
+
+ini merupakan index negatif 
+
+untuk memanggil isi index dalam list tersebut kita bisa menggunakan syntax seperti ini:
+
+print(Buah[1])          # ref.contoh dari Buah = ["apel","pisang","salak"]
+output :  pisang
+
+terdapat beberapa fungsi di list dalam python sendiri dan sangat banyak, salah satu contohnya yaitu:
+- append
+dimana fungsi built in ini digunakan untuk menambahkan data baru yang ingin dimasukin dan data nya muncul dalam urutan belakang
+contoh:
+
+Buah.append("jeruk")
+output :  ["apel","pisang","salak","jeruk"]
+
+dan masih banyak fungsi built-in dalam list yang ada dan tidak perlu dihafal cukup dipahami cara penggunaannya saja.
