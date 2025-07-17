@@ -1,0 +1,8 @@
+Loops
+
+contoh syntaxnya:
+
+for item in list_of_items:
+    # melakukan sesuatu dari item tersebut
+
+item sendiri disini merupakan sebuah penambahan variabel baru untuk menampung atau memanggil sebuah isi data yang ada dalam loops tersebut
