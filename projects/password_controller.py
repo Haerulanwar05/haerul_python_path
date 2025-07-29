@@ -13,3 +13,11 @@ def password_controller(password):
 
 output = password_controller("123")
 print(output)
+
+# mengecek beberapa password dengen loop dan fungsi password_controller
+
+list_password = ["12345","ayamgorengenak","1457","password123"]
+
+for Password in list_password:
+    result = password_controller(Password)
+    print(Password, result)
