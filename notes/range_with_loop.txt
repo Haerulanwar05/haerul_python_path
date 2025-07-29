@@ -1,0 +1,50 @@
+Materi: Penggunaan range dalam loop (Python)
+
+1. Apa itu range?
+    - range adalah fungsi bawaan Python untuk menghasilkan urutan angka.
+    - Biasanya digunakan dalam perulangan (loop) seperti for.
+
+2. Contoh dasar penggunaan range:
+    ```python
+    for i in range(5):
+         print(i)
+    ```
+    Output:
+    0
+    1
+    2
+    3
+    4
+
+3. range(start, stop, step)
+    - start: angka awal (opsional, default 0)
+    - stop: angka akhir (tidak termasuk)
+    - step: loncatan (opsional, default 1)
+
+    Contoh:
+    ```python
+    for i in range(1, 10, 2):
+         print(i)
+    ```
+    Output:
+    1
+    3
+    5
+    7
+    9
+
+4. Loop mundur dengan range:
+    ```python
+    for i in range(5, 0, -1):
+         print(i)
+    ```
+    Output:
+    5
+    4
+    3
+    2
+    1
+
+Kesimpulan:
+- range sangat berguna untuk mengontrol jumlah iterasi dalam loop.
+- Bisa digunakan untuk berbagai pola perulangan (maju, mundur, loncatan).
