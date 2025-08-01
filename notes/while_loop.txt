@@ -1,0 +1,31 @@
+Materi: While Loop dan Perbedaannya dengan For Loop
+
+1. While Loop
+While loop digunakan untuk menjalankan kode selama kondisi tertentu bernilai True.
+Contoh:
+x = 1
+while x <= 5:
+    print(x)
+    x += 1
+
+Penjelasan:
+- Selama x kurang dari atau sama dengan 5, kode di dalam while akan dijalankan.
+- Jika kondisi sudah False, loop berhenti.
+
+2. For Loop
+For loop digunakan untuk mengulang kode berdasarkan urutan (seperti list, range, dll).
+Contoh:
+for x in range(1, 6):
+    print(x)
+
+Penjelasan:
+- x akan bernilai 1 sampai 5 secara otomatis.
+- Cocok untuk jumlah pengulangan yang sudah diketahui.
+
+Perbedaan Utama:
+- While loop: Cocok jika jumlah pengulangan belum pasti, tergantung kondisi.
+- For loop: Cocok jika jumlah pengulangan sudah pasti atau ingin mengakses elemen dalam urutan.
+
+Kesimpulan:
+Gunakan while loop jika ingin mengulang selama kondisi tertentu.
+Gunakan for loop jika ingin mengulang sejumlah tertentu atau pada setiap elemen dalam urutan.
