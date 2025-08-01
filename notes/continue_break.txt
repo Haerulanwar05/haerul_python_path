@@ -1,0 +1,27 @@
+ continue merupakan sebuah statement yang digunakan untuk melanjutkan iterasi berikutnya pada sebuah loop.
+ Statement ini akan melewati sisa kode dalam iterasi saat ini dan langsung melanjutkan ke iterasi berikutnya. Biasanya digunakan dalam kondisi tertentu untuk menghindari eksekusi kode yang tidak diinginkan.
+ Contoh penggunaan continue dalam sebuah loop: 
+```python
+for i in range(10):     
+    if i % 2 == 0:  # Jika i adalah bilangan genap
+        continue  # Lewati iterasi ini
+    print(i)  # Hanya mencetak bilangan ganjil 
+```
+Pada contoh di atas, ketika `i` adalah bilangan genap, statement `continue` akan dieksekusi, sehingga perintah `print(i)` tidak akan dijalankan untuk bilangan genap. Hanya bilangan ganjil yang akan dicetak ke layar.
+Statement `continue` sangat berguna untuk menghindari eksekusi kode yang tidak perlu dalam sebuah loop, sehingga membuat kode lebih efisien dan mudah dibaca.
+Statement `continue` dapat digunakan dalam berbagai jenis loop, seperti `for` dan `while`, dan dapat digunakan dalam kombinasi dengan kondisi untuk menentukan kapan iterasi harus dilanjutkan.
+
+untuk break, statement ini digunakan untuk menghentikan eksekusi loop saat ini dan keluar dari loop tersebut.
+Statement `break` sering digunakan ketika kondisi tertentu terpenuhi, sehingga tidak perlu melanjutkan iterasi lebih lanjut.
+Contoh penggunaan `break` dalam sebuah loop:
+```python
+for i in range(10):    
+    if i == 5:  # Jika i mencapai 5
+        break  # Hentikan loop
+    print(i)  # Mencetak nilai i sebelum mencapai 5 
+```Pada contoh di atas, ketika `i` mencapai 5, statement `break` akan dieksekusi, sehingga loop akan dihentikan dan tidak akan mencetak nilai 5 atau lebih besar. Hanya nilai 0 hingga 4 yang akan dicetak ke layar.
+Statement `break`sangat berguna untuk mengontrol alur eksekusi dalam sebuah loop, terutama ketika kondisi tertentu terpenuhi yang membuat iterasi lebih lanjut tidak diperlukan.
+
+
+
+
