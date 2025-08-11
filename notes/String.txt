@@ -1,0 +1,23 @@
+String
+ - String operasi               -------------
+ - metode String                             |
+ - pengurangan String                        |  # Materi Tentang String
+ - format String                             |
+ - urutan escape                -------------
+
+
+dalam indexing di string seperti ini konsep nya
+  0 1 2 3 4       awal merupakan 0
+" a p p l e "
+ -5-4-3-2-1       terakhir merupakan mines dan dimulai dari -1      
+
+Tanda titik dua (:) dalam slicing (pengirisan) string di Python digunakan sebagai pemisah untuk menentukan rentang (range) karakter yang ingin Anda ambil dari sebuah string. Pada dasarnya, ini adalah cara untuk "memotong" sebagian dari string.
+
+string[start:stop:step]  --------- cara pemakaian 
+
+Mengambil Seluruh String (:)
+Mengambil dari Indeks Tertentu Hingga Akhir (start:)
+Mengambil dari Awal Hingga Indeks Tertentu (:stop)
+Mengambil Sebagian Kata (start:stop)
+
+
