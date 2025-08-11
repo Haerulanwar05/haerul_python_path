@@ -1,0 +1,96 @@
+# Data Structure (Struktur Data) dalam Pemrograman
+
+Struktur data adalah cara menyimpan dan mengorganisasi data agar dapat digunakan secara efisien. Pemilihan struktur data yang tepat sangat penting untuk performa program.
+
+## Jenis-jenis Struktur Data
+
+1. **Array**
+    - Kumpulan elemen dengan tipe data sama.
+    - Akses elemen menggunakan indeks.
+    - Contoh: daftar nilai siswa.
+
+2. **Linked List**
+    - Kumpulan node yang saling terhubung.
+    - Setiap node berisi data dan pointer ke node berikutnya.
+    - Cocok untuk operasi insert/delete dinamis.
+
+3. **Stack**
+    - Prinsip LIFO (Last In First Out).
+    - Operasi utama: push (tambah), pop (ambil).
+    - Contoh: undo pada editor.
+
+4. **Queue**
+    - Prinsip FIFO (First In First Out).
+    - Operasi utama: enqueue (tambah), dequeue (ambil).
+    - Contoh: antrian printer.
+
+5. **Tree**
+    - Struktur hierarki dengan node dan cabang.
+    - Contoh: binary tree, AVL tree.
+    - Digunakan pada database, file system.
+
+6. **Graph**
+    - Kumpulan node (vertex) dan edge (sisi).
+    - Digunakan untuk merepresentasikan jaringan (misal: peta, social network).
+
+7. **Hash Table**
+    - Menyimpan data dengan pasangan key-value.
+    - Akses data sangat cepat.
+    - Contoh: dictionary di Python.
+
+## Contoh Implementasi Sederhana di Python
+
+### Array (List)
+
+Tipe data structures 
+
+# primitiv (Merupakan sebuah built-in dari python itu sendiri)
+
+contoh tipe data nya yaitu:
+    - integer
+    - Float
+    - String
+    - Character
+    - Boolean 
+
+# non primitive (merupakan sebuah data structure yang di definisikan oleh developer itu sendiri)
+
+dalam non primitiv ini terdapat 2 jenis nya yaitu:
+- linear (contohnya)
+    * Static
+        - Array
+    * Dynamic 
+        - Linked List
+        - Stack
+        - Queue
+- Non linear
+    - Tree
+    - Graph
+
+
+
+# Algoritma dalam Pemrograman
+
+Algoritma adalah langkah-langkah logis yang disusun secara sistematis untuk menyelesaikan suatu masalah. Dalam pemrograman, algoritma digunakan untuk memecahkan masalah dengan cara yang efisien dan terstruktur.
+
+## Karakteristik Algoritma
+
+1. **Input**: Memiliki nol atau lebih masukan.
+2. **Output**: Menghasilkan setidaknya satu keluaran.
+3. **Definiteness**: Setiap langkah harus jelas dan tidak ambigu.
+4. **Finiteness**: Algoritma harus berhenti setelah sejumlah langkah terbatas.
+5. **Effectiveness**: Setiap langkah dapat dikerjakan dalam waktu yang wajar.
+
+## Contoh Algoritma Sederhana
+
+### Algoritma Menghitung Rata-rata Nilai
+
+1. Mulai
+2. Masukkan daftar nilai
+3. Hitung jumlah seluruh nilai
+4. Hitung banyaknya nilai
+5. Bagi jumlah nilai dengan banyaknya nilai
+6. Tampilkan hasil rata-rata
+7. Selesai
+
+### Implementasi di Python
