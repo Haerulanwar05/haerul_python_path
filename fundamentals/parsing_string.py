@@ -24,3 +24,10 @@ dan tentu menggunakan parameter beda nya dia harus meminta parameter itu senditi
 '''
 join_back = " ".join(output)
 print(join_back)
+
+
+custom_string = 'X-MAPDS-Confidence:0.8475' 
+index_col = custom_string.find(":")
+number = custom_string[index_col + 1: ]
+number = float(number)
+print(number)
