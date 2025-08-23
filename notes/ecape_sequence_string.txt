@@ -1,0 +1,22 @@
+Definisi Escape Sequence: Escape sequence adalah kombinasi karakter yang diawali dengan backslash (\) untuk memberikan instruksi khusus kepada interpreter Python. Ini digunakan untuk menerapkan karakter yang biasanya tidak dapat dimasukkan langsung ke dalam string, seperti tanda kutip dan karakter khusus lainnya.
+
+Karakter yang Dapat Diekspresikan:
+
+Tanda Kutip: Jika Anda memiliki string yang dibungkus dalam tanda kutip tunggal dan Anda ingin memasukkan tanda kutip tunggal dalam string tersebut, Anda harus menggunakan backslash. Contohnya, untuk string It's a nice day, Anda akan menulisnya sebagai It\'s a nice day.
+
+Tanda Kutip Ganda: Prinsip yang sama berlaku untuk tanda kutip ganda. Jika string dibungkus dalam tanda kutip ganda dan Anda perlu memasukkan tanda kutip ganda, Anda harus mengekspresikannya dengan backslash, seperti "She said, \"Hello\"".
+
+Contoh Penggunaan dalam Kode:
+
+Escape sequences bisa digunakan dalam skrip Python untuk mencetak string yang mengandung karakter khusus. Misalnya:
+
+print('It\'s a nice day')
+print("She said, \"Hello\"")
+
+Daftar Escape Sequences: Beberapa escape sequences yang umum digunakan meliputi:
+\' : Tanda kutip tunggal
+\" : Tanda kutip ganda
+\\ : Backslash
+\n : Baris baru
+\t : Tab
+Materi ini membantu pemrogram memahami cara memasukkan karakter khusus dalam string sehingga kode dapat berfungsi dengan baik dan tidak terjadi kesalahan sintaksis. Menguasai penggunaan escape sequences adalah keterampilan penting dalam pemrograman.
