@@ -1,0 +1,19 @@
+Definisi String Formatting: String formatting adalah cara untuk mengontrol tampilan output string, memungkinkan Anda untuk menyisipkan variabel ke dalam string dan mengatur penampilannya.
+
+Teknik String Formatting:
+
+Fungsi format(): Salah satu metode umum digunakan untuk melakukan formatting. Anda dapat mengatur bagaimana variabel ditampilkan dalam string. Misalnya:
+
+print("{0:<10} {1:<5}".format("Nama", "Skor"))
+ Pada contoh ini, `{0:<10}` menunjukkan bahwa nama akan rata kiri dan dialokasikan 10 karakter, sedangkan `{1:<5}` untuk skor, dengan alokasi 5 karakter.
+
+Contoh Penggunaan dalam Program: Dalam proyek yang dijelaskan, siswa diminta untuk mencetak nama-nama dan skor mereka dalam format tabel yang terstruktur. Dengan memanfaatkan format(), hasil akhirnya memungkinkan nama-nama dan skor terletak di kolom yang sama, membuat tampilan data menjadi rapi.
+
+Beberapa Metode Formatting:
+Positional Formatting: Menggunakan angka dalam kurung kurawal untuk menunjukkan urutan dari argumen.
+Keyword Formatting: Menggunakan nama variabel dalam string, misalnya:
+
+print("{name} scored {score}".format(name="Alice", score=90))
+
+Penggunaan Lanjutan: Meskipun berbagai gaya formatting bisa digunakan, penting untuk mengeksplorasi dokumentasi untuk mempelajari berbagai opsi dan kadang-kadang kombinasikan beberapa teknik formatting untuk mencapai output yang diinginkan.
+Materi ini sangat penting bagi pemrogram untuk memformat dan menampilkan data secara efektif di aplikasi mereka.
