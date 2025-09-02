@@ -1,0 +1,25 @@
+Materi di kuliah ke-128 berfokus pada konsep dasar daftar (lists) dalam Python. Berikut adalah poin-poin utama yang bisa membantu pemahaman:
+
+Definisi Daftar: Daftar adalah koleksi terurut dari item yang dapat berisi berbagai jenis data, seperti integer, string, dan float, serta bisa juga kosong, yang ditandai dengan kurung siku [].
+
+Mutabilitas: Tidak seperti string yang bersifat immutable (tidak dapat diubah), daftar bersifat mutable, yang berarti kamu bisa memodifikasi, menambah, atau menghapus elemen di dalamnya.
+
+Akses dan Pembaruan: Kamu bisa mengakses elemen menggunakan indeks (dimulai dari 0), dan memperbarui elemen dengan cara menetapkan nilai baru ke indeks tertentu.
+
+Iterasi dengan Loop: Untuk menelusuri elemen dalam daftar, kamu dapat menggunakan loop for, yang memungkinkan kamu membaca atau memperbarui setiap elemen dalam daftar.
+
+Fungsi range() dan len(): Kedua fungsi ini berguna untuk menelusuri daftar berbasis indeks. len() memberikan jumlah elemen dalam daftar, sedangkan range() membantu dalam menciptakan urutan indeks.
+
+# kesalahan yang biasa terjadi dalam list yaitu "index out of range"
+
+Definisi Kesalahan: Kesalahan ini terjadi ketika mencoba mengakses indeks yang melebihi jangkauan yang tersedia dalam daftar.
+
+Contoh Praktis: Menggunakan contoh daftar bernama 'countries_of_UK' yang berisi empat negara. Di sini, pengindeksan dimulai dari nol, sehingga elemen terakhir (Wales) dapat diakses pada indeks tiga. Mengakses indeks empat akan memicu kesalahan karena tidak ada elemen pada posisi tersebut.
+
+Pentingnya Memahami Pengindeksan: Memahami cara pengindeksan daftar sangat penting, terutama untuk dataset yang lebih besar di mana konfirmasi visual mungkin tidak memungkinkan.
+
+Kesalahan Off by One: Hal ini sering terjadi ketika seorang programmer mencoba mengakses indeks yang sama dengan panjang daftar, yang dapat menyebabkan kesalahan index out of range.
+
+Solusi: Untuk mengatasi kesalahan ini, disarankan untuk mengurangi satu dari panjang daftar saat mengakses elemen terakhir, memastikan elemen terakhir dapat diakses dengan benar.
+
+Peringatan Terakhir: Kesalahan index out of range menunjukkan upaya untuk mengakses indeks yang tidak ada dalam daftar. Pengembang diimbau untuk lebih berhati-hati dengan pengindeksan saat bekerja dengan daftar.
